@@ -1,0 +1,10 @@
+AAPL - Apple Inc.
+GOOGL - Alphabet Inc. (Class A)
+MSFT - Microsoft Corporation
+AMZN - Amazon.com Inc.
+TSLA - Tesla Inc.
+INTC - Intel Corporation
+IBM - International Business Machines Corporation
+NVDA - NVIDIA Corporation
+NFLX - Netflix Inc.
+CSCO - Cisco Systems Inc.
