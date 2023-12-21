@@ -42,6 +42,8 @@ Se consulta un rango de fechas comprendido entre *fecha_inicio = AAAA-MM-DD* y *
 
 El programa brinda 2 gráficos evolutivos:
 
+![Alt text](image.png) 
+
 * Gráfico de velas: evolución diaria de precios del ticker consultado. 
 
     Cada vela se dibuja con el precio de apertura, el precio de cierre (especificado con "c"), el precio mínimo y el precio máximo alcanzado en el día. Si la vela es verde, significa que el precio de cierre fue mayor al precio de apertura; caso contrario, la vela será roja. 
