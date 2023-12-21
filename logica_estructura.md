@@ -1,7 +1,7 @@
 ## Explicación de la estructura de este código
 
 El archivo principal tp_final.py presenta funciones principales para gestionar la interacción con el usuario de manera clara y amigable:
-- `print_menú()`
+- `print_menu()`
 - `actualizar_datos()`
 - `visualzar_datos()`
 
@@ -25,7 +25,7 @@ Para controlar la ejecución, se usa `if __name__ == "__main__":`, lo cual asegu
 La función `main()` se encarga de imprimir el menú principal y de preguntarle al usuario si desea realizar una actualización de datos ingresando 1 o si desea visualizar datos ingresando 2. En caso de que se ingresen valores distintos, saldrá mensaje de opción incorrecta. Luego de cada acción, el usuario podrá realizar otra operación o podrá salir del programa presionando la tecla `s`.
 
 
-## actualizar_datos()
+### actualizar_datos()
 
 La función `actualizar_datos()` utiliza varias funciones: 
 
@@ -42,7 +42,7 @@ La función `actualizar_datos()` utiliza varias funciones:
 En definitiva, la función `actualizar_datos()` se encarga de la actualización de datos financieros. Para ello le solicita al usuario que ingrese ticker de interés junto con el rango de fechas deseado, realiza una solicitud a la API para obtener esos datos, y actualiza las tablas con la info obtenida. Además, maneja errores por medio del bloque try-except y cierra la conexión a la base de datos SQLite.
 
 
-## visualizar_datos()
+### visualizar_datos()
 
 Por otro lado, la función `visualizar_datos()` utiliza otras funciones:
 
@@ -55,7 +55,7 @@ Por otro lado, la función `visualizar_datos()` utiliza otras funciones:
 En definitiva, la función `visualizar_datos()` le proporciona al usuario una interfaz simple para que seleccione qué tipo de visualización desea realizar: un resumen de consultas realizadas o gráficos para un ticker específico. 
 
 
-## Conclusiones
+### Conclusiones
 
 - El programa desarrollado está estructurado de manera modular para facilitar su lectura, prueba y mantenimiento.
 
