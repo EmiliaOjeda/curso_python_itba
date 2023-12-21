@@ -8,3 +8,8 @@ IBM - International Business Machines Corporation
 NVDA - NVIDIA Corporation
 NFLX - Netflix Inc.
 CSCO - Cisco Systems Inc.
+JNJ - Johnson & Johnson
+PG - Procter & Gamble Co.
+KO - Coca-Cola Company
+GE - General Electric Company
+WMT - Walmart Inc.
