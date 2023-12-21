@@ -31,13 +31,6 @@ Debe ejecutarse el archivo **tp_final.py**.
 Esto por medio de una consola como Windows PowerShell, con este comando: `python tp_final.py`.
 
 
-### Configuración de API Key
-
-La API Key se puede obtener creando una cuenta en este sitio: <https://polygon.io/docs/stocks/getting-started>. 
-
-Luego, reemplazarla en la *línea 13* del código **tp_final.py**. 
-
-
 ### Elección de ticker a consultar
 
 En el archivo **ejemplos_tickers.txt** se ubican ejemplos de tickers que pueden consultarse en el programa. 
