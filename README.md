@@ -17,6 +17,13 @@ Las dependencias necesarias se ubican en el archivo **requirements.txt**.
 Pueden instalarse con este comando: `pip install -r requirements.txt`.
 
 
+### Configuración de API Key
+
+La API Key se puede obtener creando una cuenta en este sitio: <https://polygon.io/docs/stocks/getting-started>. 
+
+Luego, de ser neceasario, se puede reemplazar en la *línea 13* del código **tp_final.py**.
+
+
 ### Ejecución del programa
 
 Debe ejecutarse el archivo **tp_final.py**.
@@ -49,7 +56,7 @@ El programa brinda 2 gráficos evolutivos:
 * Gráfico de barras: evolución diaria de volumen del ticker consultado.
 
     Cada barra indica la cantidad de acciones que se negociaron por día.
-    
+
 
 ### Observaciones
 
